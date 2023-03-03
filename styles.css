@@ -36,6 +36,20 @@ html {
     }
 }
 
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
 /* Base styles */
 
 body {
@@ -472,14 +486,25 @@ footer i {
 
 @media screen and (max-width: 650px) {
     #about {
-        margin-top: 0;
+        margin: 0;
+        padding: 0;
     }
 
-    #gato {
-        bottom: 0;
-        left: 0;
-        position: relative;
+     #about p{
+     margin: 0;
+     padding: 0;
     }
+
+    #circulo1{
+        background-color: transparent;
+    }
+
+    #circulo2 {
+        background-color: transparent;
+        }
+    #circulo3 {
+        background-color: transparent;
+}
 }
 
 @media screen and (max-width: 500px) {
