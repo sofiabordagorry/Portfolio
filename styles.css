@@ -29,27 +29,6 @@ html {
     box-sizing: border-box;
 }
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-    html {
-        font-size: 60%;
-    }
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-    html {
-        font-size: 58%;
-    }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-    html {
-        font-size: 55%;
-    }
-}
-
 /* Base styles */
 
 body {
@@ -64,13 +43,9 @@ body {
     ;
 }
 
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
-    color: var(--main-white);
+    color: var(--negro)
 }
 
 img {
@@ -163,24 +138,24 @@ img {
 }
 
 .nav-link {
-    color: #000;
+    color: var(--negro);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 20px;
     display: block;
     align-items: center;
     justify-content: center;
-    width: 125px;
+    width: 150px;
     height: 100%;
     transition: all 0.3s ease;
+    margin-right: 20px;
 }
 
 .nav-link:hover {
-    background-color: var(--verdeUmbra);
+    background-color: var(--violetaOscuro);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    font-size: 20px;
+    color: var(--blanco);
     transition: all 0.5s;
 }
 
@@ -417,11 +392,7 @@ footer i {
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 200px;
-    }
-
-    #navbar__logo {
-        padding-left: 25px;
+        height: 400px;
     }
 
     .navbar__toggle .bar {
@@ -438,6 +409,7 @@ footer i {
         width: 100%;
         display: table;
         font-size: 2rem;
+        color: var(--negro)
     }
 
     #mobile-menu {
@@ -505,27 +477,6 @@ footer i {
     #circulo3 {
         background-color: transparent;
 }
-}
-
-@media screen and (max-width: 500px) {
-    #productos {
-        flex-direction: column;
-    }
-
-    #tazas {
-        width: 100%;
-        flex-direction: column;
-        left: 0;
-        height: 100%;
-    }
-
-    #taza {
-        width: 150%;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        height: 100%;
-        left: 0;
-    }
 }
 
 @media screen and (max-width: 650px) {
