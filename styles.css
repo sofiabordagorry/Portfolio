@@ -168,13 +168,6 @@ img {
     padding: 3rem 0;
 }
 
-.main__heading {
-    font-size: 4.2rem;
-    color: var(--blanco);
-    text-align: center;
-    padding: 30px;
-}
-
 .main__content {
     width: 100%;
 }
@@ -204,7 +197,7 @@ img {
     font-size: 4.2rem;
     color: var(--blanco);
     text-align: center;
-    padding: 30px;
+    padding: 25px;
 }
 
 #circulo1 {
@@ -248,7 +241,7 @@ img {
     color: var(--ceniza);
     text-align: center;
     justify-content: center;
-    padding: 30px;
+    padding: 25px;
     margin: auto;
     background-color: #e5e5f7;
 }
@@ -303,6 +296,7 @@ img {
     font-size: 4.2rem;
     color: var(--ceniza);
     text-align: center;
+    padding: 25px;
     justify-content: center;
     background-color: #e5e5f7;
 }
