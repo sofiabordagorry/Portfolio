@@ -63,11 +63,10 @@ img {
 /*hero*/
 
 .hero {
-
-    background-color: transparent;
+   background-image: radial-gradient(var(--violeta) 2px, transparent 2px), radial-gradient(var(--violeta) 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     padding: 200px 0;
 }
 
@@ -202,7 +201,42 @@ img {
     padding: 25px;
 }
 
+#circulo1 {
+    background-color: var(--ceniza);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    shape-outside: circle();
+    clip-path: circle();
+    right: 110px;
+    z-index: 6;
+    top: 1040px;
+}
 
+
+#circulo2 {
+    background-color: var(--violetaOscuro);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    shape-outside: circle();
+    clip-path: circle();
+    right: 30px;
+    z-index: 6;
+    top: 940px;
+}
+
+#circulo3 {
+    background-color: var(--gris);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    shape-outside: circle();
+    clip-path: circle();
+    right: 50px;
+    z-index: 6;
+    top: 760px;
+}
 
 /* Projects section */
 
