@@ -427,6 +427,12 @@ footer i {
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    
+    body:hover{
+    background-image: radial-gradient(var(--violeta) 2px, transparent 2px), radial-gradient(var(--violeta) 2px, #e5e5f7 2px);
+    background-size: 80px 80px;
+    background-position: 0 0, 40px 40px;
+    }
 }
 
 /* Hero Description responsivo */
