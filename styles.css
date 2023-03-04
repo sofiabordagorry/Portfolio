@@ -441,7 +441,7 @@ footer i {
     .hero__container {
         justify-content: center;
         margin: 0 auto;
-        height: 90%;
+        height: 100%;
         padding: 0 70px;
     }
 }
