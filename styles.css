@@ -178,6 +178,7 @@ img {
 #about {
     background-image: linear-gradient(62deg, #822d89 0%, #240129 100%);
     z-index: 5;
+    height: 100%;
 }
 
 #about .subheading {
@@ -193,7 +194,6 @@ img {
     color: var(--blanco);
     text-align: left;
     padding-right: 400px;
-    background-image: linear-gradient(62deg, #822d89 0%, #240129 100%);
 }
 
 .about__heading {
